@@ -1,0 +1,4 @@
+(
+  service ntpd stop
+  sysrc ntpd_enable=NO
+) && echo "stopped and disabled ntpd service"

@@ -1,0 +1,4 @@
+(
+  sysrc ntpd_enable=YES
+  service ntpd start
+) && echo "enabled and started ntpd service"
