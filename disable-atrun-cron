@@ -1,0 +1,1 @@
+sed -i ".bak" '/atrun/s/^/#/g' /etc/crontab && echo "disabled atrun in crontab"

@@ -1,0 +1,2 @@
+sed -i ".bak" -e '/ttyv[2-9]/s/on /off/g' /etc/ttys && init q && echo "disabled additional ttyvX instances in /etc/ttys"
+

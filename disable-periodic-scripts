@@ -1,0 +1,1 @@
+grep _enable= /etc/defaults/periodic.conf | sed 's#YES#NO#g' > /etc/periodic.conf && echo "disabled all periodic scripts"
