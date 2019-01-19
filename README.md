@@ -6,7 +6,7 @@ A bunch of scripts to be used on conjunction with `mussh(1)` to automate tasks o
 
 Why not ansible/puppet/chef/blah?
 
-Configuration management tools are supposed to make life easier for Ops. For me they never did. I found ansible untidy and ugly, and every other configuration management tool too bulky or too complicated for my workflow. I believe most CM tools are just making life even more complicated for most experienced ops folks, but they hesitate to admit. 
+Configuration management tools are supposed to make life easier for Ops. For me they never did. I found ansible untidy and ugly with unreadable yaml configuration (unlike the claims), and every other configuration management tool too bulky or too complicated for my workflow. I believe most CM tools are just making life even more complicated for most experienced ops folks, but they hesitate to admit. 
 Let's be honest. What is really wrong with your good old shell script workflow? What is wrong with [mussh](https://sourceforge.net/projects/mussh/) (except that it is hosted on SourceForge)?
 Every sane sysadmin is able to write great shell scripts that are powerful and flexible? So why you give it up to some cryptic configuration file or a fat CM software (perhaps from a fat vendor)?
 For the moment, I prefer to stick with shell scripts and `mussh(1)` until some sane CM tool comes along.
